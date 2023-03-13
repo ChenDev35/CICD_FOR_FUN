@@ -21,6 +21,9 @@ jobs:
     steps:
       - checkout
       - run: 
+          name: ls
+          command: ls
+      - run: 
           name: Install dependencies
           command: npm install
       - run: 
